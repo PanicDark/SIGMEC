@@ -6,15 +6,7 @@
     <body class="container">
     <form action="">
         <p class="fs-1 text-center">REPORTAR PROBLEMA</p>
-        <div class="form-floating mb-3">
-            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                <option selected>SELECCIONA</option>
-                <option value="1">Mayra</option>
-                <option value="2">Daniel</option>
-                <option value="3">Francisco</option>
-            </select>
-            <label for="floatingSelect">Ejecutivo</label>
-        </div>
+        
         <div class="form-floating mb-3">
             <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
                 <option selected>SELECCIONA</option>
