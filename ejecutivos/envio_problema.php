@@ -5,15 +5,7 @@
     </head>
     <body class="container">
     <form action="">
-        <div class="form-floating mb-3">
-            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                <option selected>SELECCIONA</option>
-                <option value="1">Activación de la licencia de Office</option>
-                <option value="2"></option>
-                <option value="3">Three</option>
-            </select>
-            <label for="floatingSelect">Problema</label>
-        </div>
+        <p class="fs-1 text-center">REPORTAR PROBLEMA</p>
         <div class="form-floating mb-3">
             <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
                 <option selected>SELECCIONA</option>
@@ -23,6 +15,23 @@
             </select>
             <label for="floatingSelect">Ejecutivo</label>
         </div>
+        <div class="form-floating mb-3">
+            <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <option selected>SELECCIONA</option>
+                <option value="1">Activación de la licencia de Office</option>
+                <option value="2">Fallas con el internet</option>
+                <option value="3">PC Lenta</option>
+                <option value="4">Otro</option>
+            </select>
+            <label for="floatingSelect">Problema</label>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Problema</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="ej. Falta agregar correo">
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <button type="button" class="btn btn-success">REPORTAR</button>
+        </div>        
     </form>
     </body>
 </html>

@@ -5,8 +5,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
     </head>
-    <body>
-        <?php include 'pages/encabezado.php'  ;?>
+    <body class="fondo">
+    <div class="container"></div>
+        <p class="fs-1 text-center">AVANCE DE PROBLEMAS</p>
         <table class="table">
             <thead>
                 <th scope="col">EJECUTIVO</th>
@@ -22,8 +23,10 @@
                     <td>Pendiente</td>
                     <td>21/04/2021 12:00 PM</td>
                     <td>
-                        <select name="" id="" class="form-select form-select-sm" aria-label=".form-select-sm example">
-                            <option value="">SELECCIONA</option>
+                        <select name="" id="" class="form-select form-select-sm">
+                            <option value="0">SELECCIONA</option>
+                            <option value="1">Ossmar Manuel Martínez Elizarraraz</option>
+                            <option value="2">Kevin Asael Gonzalez Hernandez</option>
                         </select>
                     </td>
                     <td class="text-aling center"><button class="btn btn-outline-danger">ARREGLAR</button></td>
